@@ -1,140 +1,58 @@
-@Article{KoMa14,
-  title =	 {An Adaptive Shifted Power Method for Computing
-                  Generalized Tensor Eigenpairs},
-  author =	 {Tamara G. Kolda and Jackson R. Mayo},
-  doi =		 {10.1137/140951758},
-  journal =	 {SIAM Journal on Matrix Analysis and Applications},
-  number =	 4,
-  volume =	 35,
-  year =	 2014,
-  month =	 dec,
-  pages =	 {1563--1581},
+@Article{Sun2009,
+  author   = {Sun, Shuyu and Liu, Jiangguo},
+  journal  = {SIAM Journal on Scientific Computing},
+  title    = {A Locally Conservative Finite Element Method Based on Piecewise Constant Enrichment of the Continuous Galerkin Method},
+  year     = {2009},
+  number   = {4},
+  pages    = {2528-2548},
+  volume   = {31},
+  abstract = {This paper presents a locally conservative finite element method based on enriching the approximation space of the continuous Galerkin method with elementwise constant functions. The proposed method has a smaller number of degrees of freedom than the discontinuous Galerkin method. Numerical examples on coupled flow and transport in porous media are provided to illustrate the advantages of this method. We also present a theoretical analysis of the method and establish optimal convergence of numerical solutions.},
+  doi      = {10.1137/080722953},
+  eprint   = {https://doi.org/10.1137/080722953},
+  url      = {https://doi.org/10.1137/080722953},
 }
 
-@Misc{siam,
-  key = {zzz},
-  title =	 {{SIAM} Style Manual: For journals and books},
-  year =	 2013,
-url = {https://www.siam.org/journals/pdf/stylemanual.pdf}}
-
-@Misc{Hi14,
-  author =	 {Nick Higham},
-  title =	 {A Call for Better Indexes},
-  howpublished = {SIAM Blogs},
-  year =	 2014,
-  month =	 nov,
-  url =		 {http://blogs.siam.org/a-call-for-better-indexes/},
-  urldate =	 {2015-04-05}
+@Article{Belytschko2001,
+  author   = {Belytschko, T. and Moës, N. and Usui, S. and Parimi, C.},
+  journal  = {International Journal for Numerical Methods in Engineering},
+  title    = {Arbitrary discontinuities in finite elements},
+  year     = {2001},
+  number   = {4},
+  pages    = {993-1013},
+  volume   = {50},
+  abstract = {Abstract A technique for modelling arbitrary discontinuities in finite elements is presented. Both discontinuities in the function and its derivatives are considered. Methods for intersecting and branching discontinuities are given. In all cases, the discontinuous approximation is constructed in terms of a signed distance functions, so level sets can be used to update the position of the discontinuities. A standard displacement Galerkin method is used for developing the discrete equations. Examples of the following applications are given: crack growth, a journal bearing, a non-bonded circular inclusion and a jointed rock mass. Copyright © 2001 John Wiley \& Sons, Ltd.},
+  doi      = {https://doi.org/10.1002/1097-0207(20010210)50:4<993::AID-NME164>3.0.CO;2-M},
+  eprint   = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/1097-0207%2820010210%2950%3A4%3C993%3A%3AAID-NME164%3E3.0.CO%3B2-M},
+  keywords = {finite elements, fracture, fasteners, jointed rock},
+  url      = {https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-0207%2820010210%2950%3A4%3C993%3A%3AAID-NME164%3E3.0.CO%3B2-M},
 }
 
-@Misc{PeKoPi14,
-  title = {Accelerating Community Detection by Using {K}-core Subgraphs},
-  author =	 {Chengbin Peng and Tamara G. Kolda and Ali Pinar},
-  eprint =	 {1403.2226},
-  year =	 2014,
-  month =	 mar,
-  eprintclass =	 {math.NA}
+@Article{Vamaraju2020,
+  author   = {Vamaraju, Janaki and Sen, Mrinal K and De Basabe, Jonas and Wheeler, Mary},
+  journal  = {Geophysical Journal International},
+  title    = {{A hybrid Galerkin finite element method for seismic wave propagation in fractured media}},
+  year     = {2020},
+  issn     = {0956-540X},
+  month    = {01},
+  number   = {2},
+  pages    = {857-878},
+  volume   = {221},
+  abstract = {{The discontinuous Galerkin finite element method (DGM) is a promising algorithm for modelling wave propagation in fractured media. It allows for discontinuities in the displacement field to simulate fractures or faults in a model. Our approach is based on the interior-penalty formulation of DGM, and the fractures are simulated using the linear-slip model, which is incorporated into the weak formulation. On the other hand, the spectral element method (SEM) can be used to simulate elastic wave propagation in non-fractured media. SEM uses continuous basis functions which do not allow for discontinuities in the displacement field. However, the computation cost of DGM is significantly larger than SEM due primarily to increase in the number of degrees of freedom. Here we propose a hybrid Galerkin method (HGM) for elastic wave propagation in fractured media that combines the salient features of each of the algorithm resulting in significant reduction in computational cost compared to DGM. We use DGM in areas containing fractures and SEM in regions without fractures. The coupling between the domains at the interfaces is satisfied in the weak form through interface conditions. The degree of reduction in computation time depends primarily on the density of fractures in the medium. In this paper, we formulate and implement HGM for seismic wave propagation in fractured media. Using realistic 2-D/3-D numerical examples, we show that our proposed HGM outperforms DGM with reduced computation cost and memory requirement while maintaining the same level of accuracy.}},
+  doi      = {10.1093/gji/ggaa037},
+  eprint   = {https://academic.oup.com/gji/article-pdf/221/2/857/32648225/ggaa037.pdf},
+  url      = {https://doi.org/10.1093/gji/ggaa037},
 }
 
-
-@Article{WoZhMeSh05,
-  author =	 {Woessner, Donald E. and Zhang, Shanrong and
-                  Merritt, Matthew E. and Sherry, A. Dean},
-  title = {Numerical Solution of the {Bloch} Equations Provides Insights 
-                  into the Optimum Design of {PARACEST} Agents for {MRI}},
-  journal =	 {Magnetic Resonance in Medicine},
-  doi =		 {10.1002/mrm.20408},
-  volume =	 53,
-  number =	 4,
-  month =	 apr,
-  year =	 2005,
-  pages =	 {790--799},
-  archiveprefix = {PubMed},
-  archive =	 {https://www.ncbi.nlm.nih.gov/pubmed},
-  eprint =	 {15799055}
+@Article{Vamaraju2018,
+  author   = {Janaki Vamaraju and Mrinal K. Sen and Jonas {De Basabe} and Mary Wheeler},
+  journal  = {Journal of Computational Physics},
+  title    = {Enriched Galerkin finite element approximation for elastic wave propagation in fractured media},
+  year     = {2018},
+  issn     = {0021-9991},
+  pages    = {726-747},
+  volume   = {372},
+  abstract = {Finite Element Methods (FEM) are becoming increasingly popular in modeling seismic wave propagation. These methods provide higher order accuracy, geometrical flexibility and adaptive gridding capabilities that are not easy to incorporate in traditional finite difference methods employed for generation of synthetic seismograms. Moreover, several studies have shown that Discontinuous Galerkin FEM (DGM) is a promising approach for modeling wave propagation in fractured media. Here we propose an Enriched Galerkin FEM (EGM) for elastic wave propagation. EGM uses the same bilinear form as DGM and the continuous Galerkin finite element spaces enriched by discontinuous piecewise constants or bilinear functions. EGM satisfies local equilibrium while reducing the degrees of freedom in DGM formulations. In this paper, we consider elastic wave propagation and derive optimal a priori error estimates for DGM and EGM. We present numerical examples in two spatial dimensions that confirm these theoretical results. In addition, we provide numerical comparisons with the Spectral element method. In previous work, DGM has been shown to be effective in modeling elastic wave propagation in fractured media using the linear slip model. We now extend these results to EGM with reduced computational costs over DGM.},
+  doi      = {https://doi.org/10.1016/j.jcp.2018.06.049},
+  keywords = {Finite element method, Elastic wave propagation, Enriched Galerkin method, A-priori error estimates, Fractured media, Linear slip model},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0021999118304273},
 }
-
-@Article{Ne03,
-  title =	 {Properties of Highly Clustered Networks},
-  author =	 {Newman, M. E. J.},
-  doi =		 {10.1103/PhysRevE.68.026121},
-  journal =	 {Phys. Rev. E},
-  volume =	 {68},
-  year =	 {2003},
-  eid =		 {026121},
-  pagetotal =	 6,
-  month =	 aug,
-}
-
-@misc{clawpack,
-  title =	 {Clawpack Software},
-  author =	 {{Clawpack Development Team}},
-  url =		 {http://www.clawpack.org},
-  urldate =	 {2015/05/14},
-  note =	 {Version 5.2.2},
-  year =	 2015
-}
-
-@Misc{AMSMSC2010,
-  title =	 {{Mathematics Subject Classification}},
-  author =	 {{American Mathematical Society}},
-  year =	 {2010},
-  url =		 {https://mathscinet.ams.org/mathscinet/msc/msc2010.html},
-  urldate =	 {2021/02/08},
-}
-
-
-@book{La86,
-  author =	 "Leslie Lamport",
-  title =	 "\LaTeX: A Document Preparation System",
-  publisher =	 "Addison--Wesley",
-  year =	 "1986",
-  address =	 "Reading, MA"
-}
-
-@Book{MiGo04,
-  author =	 {Frank Mittlebach and Michel Goossens},
-  title =	 {The \LaTeX\ Companion},
-  publisher =	 {Addison--Wesley},
-  year =	 2004,
-  edition =	 {2nd}}
-
-@Book{GoVa13,
-  author =	 {Golub, Gene H. and Van Loan, Charles F.},
-  title =	 {Matrix Computations},
-  publisher =	 {The Johns Hopkins University Press},
-  address =	 {Baltimore},
-  year =	 2013,
-  edition =	 {4th}
-}
-
-
-@Misc{CalcI,
-  author =	 {Paul Dawkins},
-  title =	 {Paul's Online Math Notes: Calculus {I} --- Notes},
-  url =               {http://tutorial.math.lamar.edu/Classes/CalcI/MeanValueTheorem.aspx},
-  urldate =	 {2015-07-08}}
-
-@Misc{amsmath,
-  author =	 {{American Mathematical Society}},
-  title =	 {User's Guide for the \texttt{amsmath} Package
-                  (Version 2.0)},
-  url =		 {ftp://ftp.ams.org/pub/tex/doc/amsmath/amsldoc.pdf},
-  urldate =	 {2015-07-30},
-  year =	 2002}
-
-@Misc{shortmath,
-  author =	 {Michael Downes},
-  title =	 {Short Math Guide for {\LaTeX}},
-  url =		 {ftp://ftp.ams.org/pub/tex/doc/amsmath/short-math-guide.pdf},
-  urldate =	 {2015-07-30},
-  year =	 2002}
-
-@Misc{pgfplots,
-  author =	 {Christian Feuers\"anger},
-  title =	 {Manual for Package \texttt{PGFPLOTS}},
-  month =	 may,
-  year =	 2015,
-  url =		 {http://sourceforge.net/projects/pgfplots}
-}
-
